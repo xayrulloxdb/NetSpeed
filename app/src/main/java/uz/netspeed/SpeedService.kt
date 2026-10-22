@@ -28,7 +28,9 @@ import java.util.Locale
 class SpeedService : Service() {
 
     companion object {
-        const val CHANNEL_ID = "speed_channel"
+        // Янги канал: Samsung "овозсиз" (LOW) билдиришноманинг иконкасини статус-барда яширади
+        const val CHANNEL_ID = "speed_live"
+        const val OLD_CHANNEL_ID = "speed_channel"
         const val NOTIF_ID = 1
         const val ACTION_STOP = "uz.netspeed.STOP"
         var isRunning = false
@@ -123,8 +125,10 @@ class SpeedService : Service() {
     // ---------- Билдиришнома ----------
 
     private fun createChannel() {
+        nm.deleteNotificationChannel(OLD_CHANNEL_ID)
+        // DEFAULT — иконка статус-барда кўринади; овоз ва вибрация ўчирилган
         val ch = NotificationChannel(
-            CHANNEL_ID, getString(R.string.channel_name), NotificationManager.IMPORTANCE_LOW
+            CHANNEL_ID, getString(R.string.channel_name), NotificationManager.IMPORTANCE_DEFAULT
         ).apply {
             setShowBadge(false)
             setSound(null, null)
