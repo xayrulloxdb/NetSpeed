@@ -10,5 +10,5 @@
     <string name="status_off">Ҳозир ўчиқ</string>
     <string name="battery_fix">Батарея чекловини олиб ташлаш</string>
     <string name="battery_ok">Батарея чеклови йўқ ✅</string>
-    <string name="hint">Samsung'да илова фонда тўхтаб қолмаслиги учун «Батарея чекловини олиб ташлаш» тугмасини босинг.</string>
+    <string name="hint">Samsung\'да илова фонда тўхтаб қолмаслиги учун «Батарея чекловини олиб ташлаш» тугмасини босинг.</string>
 </resources>
