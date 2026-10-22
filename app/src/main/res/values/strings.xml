@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Интернет тезлиги</string>
+    <string name="channel_name">Интернет тезлиги</string>
+    <string name="session_total">Жами: ↓ %1$s  ↑ %2$s</string>
+    <string name="stop">Тўхтатиш</string>
+    <string name="turn_on">Ёқиш</string>
+    <string name="turn_off">Ўчириш</string>
+    <string name="status_on">Тезлик статус-барда кўрсатилмоқда ✅</string>
+    <string name="status_off">Ҳозир ўчиқ</string>
+    <string name="battery_fix">Батарея чекловини олиб ташлаш</string>
+    <string name="battery_ok">Батарея чеклови йўқ ✅</string>
+    <string name="hint">Samsung'да илова фонда тўхтаб қолмаслиги учун «Батарея чекловини олиб ташлаш» тугмасини босинг.</string>
+</resources>
